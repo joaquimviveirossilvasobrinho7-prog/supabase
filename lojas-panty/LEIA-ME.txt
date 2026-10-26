@@ -1,0 +1,15 @@
+LOJAS PANTY — COMO COMEÇAR
+
+1. Extraia o ZIP para uma pasta.
+2. Abra app.js no Bloco de Notas.
+3. Encontre as duas primeiras constantes:
+   const SUPABASE_URL = "COLE_AQUI_A_PROJECT_URL";
+   const SUPABASE_PUBLISHABLE_KEY = "COLE_AQUI_A_PUBLISHABLE_KEY";
+4. Troque os textos dentro das aspas pelos dados do projeto:
+   URL: https://pdtafajmzwgllkanzavs.supabase.co
+   Chave: cole a chave sb_publishable_ do seu projeto.
+5. Salve app.js e abra index.html no navegador.
+
+Este é o primeiro protótipo: ele mostra os produtos do banco. O botão de interesse não recebe pagamentos ainda.
+Antes de vender de verdade, configure checkout de um provedor confiável, suporte, política de privacidade e trocas/devoluções. Não colete dados de cartão diretamente neste site.
+ATENÇÃO: as políticas públicas de INSERT/UPDATE/DELETE configuradas anteriormente deixam visitantes alterarem os produtos. Antes de publicar uma loja real, restrinja essas operações a administradores autenticados e revise as políticas RLS.
